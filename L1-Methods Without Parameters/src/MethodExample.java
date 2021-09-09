@@ -5,6 +5,7 @@ public class MethodExample {
     public static void main(String[] args) {
         area();
         perimeter();
+        System.exit(0);
     }
 
     public static void area(){
@@ -20,6 +21,6 @@ public class MethodExample {
         double length = Double.parseDouble(JOptionPane.showInputDialog("What is the length"));
 
         double perimeter = 2 * width + 2 *  length;
-        JOptionPane.showMessageDialog(null, "The area is " + perimeter);
+        JOptionPane.showMessageDialog(null, "The perimeter is " + perimeter);
     }
 }
