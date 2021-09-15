@@ -29,7 +29,7 @@ public class TrianglePerimeter {
 
         outputResults(perimeter);
 
-        System.exit(69);
+        System.exit(69420);
     }
     public static int getInput(String message) {
         return Integer.parseInt(JOptionPane.showInputDialog(message));
